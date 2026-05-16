@@ -1,0 +1,28 @@
+.img-contianer{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+.img-contianer img {
+	display: block;
+	width: 100%;
+	height:auto;
+}
+.overlay-text{
+	position: absolute;
+	top: 90%;
+	left: 70%;
+	font-size: 50px;
+	text-decoration-thickness: bold;
+}
+body{
+	background-color: #E8EDF2;
+}
+p{
+	text-align: center;
+	font-size: 30px;
+	font-family: cursive;
+}
