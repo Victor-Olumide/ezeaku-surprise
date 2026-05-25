@@ -328,7 +328,9 @@ body::before {
     width: min(100% - 24px, 1180px);
     align-items: flex-start;
     gap: 12px;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
   }
 
   .brand_logo {
@@ -337,7 +339,6 @@ body::before {
   }
 
   .nav_list {
-    width: 100%;
     justify-content: space-between;
     gap: 6px;
   }
